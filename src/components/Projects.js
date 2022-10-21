@@ -4,6 +4,15 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import nftmarketplace1 from "../assets/projects/nfmarketplace1.png";
+import nftmarketplace2 from "../assets/projects/nftmarketplace2.png";
+import projectmanagement2 from "../assets/projects/projectmanagement2.jpg";
+import projectmanagement1 from "../assets/projects/projectmanagement1.jpg";
+import projectmanagement3 from "../assets/projects/projectmanagement3.jpg";
+import flybuy1 from "../assets/projects/flybuy1.jpg";
+import flybuy2 from "../assets/projects/flybuy2.png";
+import objdetect1 from "../assets/projects/objdetect1.png";
+import objdetect2 from "../assets/projects/objdetect2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,35 +20,51 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "NFT Marketplace",
+      description: "Blockchain-based project, NFT marketplace that allows users to list and transfer NFTs and sell NFTs at a fixed price or in a timed auction. Also, we include an admin panel with a dashboard to monitor sales activities, monitor users and listings,",
+      imgUrl: nftmarketplace2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "NFT Marketplace",
+      description: "",
+      imgUrl: nftmarketplace1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Project Management System",
+      description: "Project management system that has collection of approaches and tools that help staff members plan, organize, and schedule everything that is necessary for a project to be successful",
+      imgUrl: projectmanagement1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Project Management System",
+      description: "",
+      imgUrl: projectmanagement3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Project Management System",
+      description: "Every employee allows to direct message with their relevant project managers through this system help of the chat application based on firebase aswell",
+      imgUrl: projectmanagement2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "FlyBuy",
+      description: "A marketplace for people to buy grocery items online",
+      imgUrl: flybuy1,
     },
+    {
+      title: "FlyBuy",
+      description: "A marketplace for people to buy grocery items online",
+      imgUrl: flybuy2,
+    },
+    {
+      title: "Vehicle collision detection system",
+      description: "Software to predict the trajectory of the vehicle in the next 2 seconds and alert if a collision may occur",
+      imgUrl: objdetect1,
+    },
+    {
+      title: "Vehicle collision detection system",
+      description: "Software to predict the trajectory of the vehicle in the next 2 seconds and alert if a collision may occur",
+      imgUrl: objdetect2,
+    },
+
   ];
 
   return (
