@@ -16,9 +16,9 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+            <a href="https://www.linkedin.com/in/nuwan-perera-aa0a08218/"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.facebook.com/nuwan.deshapriya.714"><img src={navIcon2} alt="" /></a>
+                <a href="https://github.com/Nuwa-Hub"><img src={navIcon3} alt="" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
